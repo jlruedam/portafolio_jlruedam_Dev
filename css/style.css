@@ -4,53 +4,66 @@ html{
 
 .header-container{
     
-    background: linear-gradient(110deg,#000814, #d9d9d9);
+    background: linear-gradient(360deg,#000814, #d9d9d9);
     width: 100vw;
     height: 20vh;
     margin: 0;
-    padding: 0;
+    padding: 2rem 0;
     border: 0;
     color: #d9d9d9;
     text-align: center;
-    font-size: 2rem;
-    
+    font-size: 2rem; 
+}
+
+.header-container__title{
+    letter-spacing: 2rem;
 }
 
 .main-container{
     
     width: 100vw;
     height: 60vh;
-    margin: 0;
     padding: 0;
     border: 0;
-    
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 10rem;
+    height: fit-content;
 }
-
-
-.footer-container{
-    
-    background:linear-gradient(0deg,#000814, #d9d9d9);
-    width: 100vw;
-    height: 20vh;
-    margin-top: 0.5rem;
-    padding: 0;
-    border: 0;
-}
+   
 
 .menu-section{
-    
-    width: 20%;
-    height: 100%;
-    min-width: 10rem;
-    border-radius: 2rem;
-    width: fit-content;
-    padding-inline-start: 1rem;
-    margin-top: 1rem;
-    
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+    height: fit-content;
+
+}
+
+.content-section{
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem 2rem 2rem 2rem;
+    height: fit-content;
+}
+
+
+.content-section__article{
+    border: 1px solid black;
+    margin: 1rem;
+    box-sizing: border-box;
+    text-align: justify;
+    padding: 1rem;
+}
+
+.menu-section__nav-menu{
+    border: 1px solid black;
+    padding: 2rem;
 }
 
 .nav-list__item{
-    
     list-style: none;
     margin:1rem 0;
     width: 20rem;
@@ -76,3 +89,16 @@ html{
     text-align: center;
 }
 
+
+.footer-container{
+    
+    background:linear-gradient(0deg,#000814, #d9d9d9);
+    width: 100vw;
+    height: 20vh;
+    margin-top: 0.5rem;
+    padding: 0;
+    border: 0;
+    color: #d9d9d9;
+    text-align: center;
+    font-size: 5rem; 
+}

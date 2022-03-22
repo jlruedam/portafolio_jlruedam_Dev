@@ -56,7 +56,7 @@ html{
     /* background-color: white; */
     background:url(../img/fondo.webp) no-repeat center center fixed;
 	background-size:cover;
-    margin-top: 40px;
+    margin-top: 10px;
     
 }
 
@@ -170,11 +170,33 @@ html{
     color:#58a4b0;
 }
 
+.main-container{
+    height:auto;
+    box-sizing: border-box;
+    border: 1px yellow solid;
+}
+
+
+.article-container{
+    margin-top: 20px;
+    padding: 20px;
+    height: auto;
+    /* border: 1px red solid; */
+}
+
 
 
 .footer-container{
 
-    text-align: center;
-    border: 1px black solid;
+    width: 100%;
+    /* height: 10vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:url(../img/fondo.webp) no-repeat center center fixed;
+	background-size:cover;
+	height:10vh;
+	width: 100%;
 
 }

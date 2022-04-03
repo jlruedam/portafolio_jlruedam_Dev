@@ -64,8 +64,12 @@ html{
 	/* position: absolute; */
 	/* left:0;
 	top:0; */
-    
-       
+    text-align: center;
+}
+
+.side-panel__logo{
+    width: 100px;
+    height: 100px;
 }
 
 .card{

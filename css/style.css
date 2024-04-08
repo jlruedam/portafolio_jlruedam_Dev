@@ -206,9 +206,10 @@ html{
 }
 
 .content-panel{
-    background:url(../img/subfondo.jpg);
-    background-size:cover;
-    border: 5px black solid;
+    /* background:url(../img/subfondo.jpg); */
+    background: var(--clear_gray);
+    /* background-size:cover; */
+    /* border: px black solid; */
 }
 
 .content-panel iframe{
@@ -226,6 +227,11 @@ html{
     /* border: 1px red solid; */
 }
 
+
+.content-panel .seccion {
+    border: 1px solid black;
+    background: blue;
+}
 
 .footer-container{
 

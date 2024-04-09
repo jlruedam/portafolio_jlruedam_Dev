@@ -70,6 +70,17 @@ html{
 .side-panel__logo{
     width: 100px;
     height: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background: var(--blue_main);
+    opacity: .5;
+    transition: all 3s ease;
+}
+
+.side-panel__logo:hover{
+    transform: rotateY(180deg);
+    transition: all 3s ease;
 }
 
 .card{
@@ -182,7 +193,7 @@ html{
 }
 
 .navBar__boton {
-    min-width: 20rem;
+    min-width: 23rem;
     height: 5rem;
     display: flex;
     align-items: center;
